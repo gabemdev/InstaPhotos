@@ -12,7 +12,7 @@
 #import "PhotoModel.h"
 #import "GMPhotoController.h"
 
-@interface SearchViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, InstagramDelegate, UIViewControllerTransitioningDelegate>
+@interface SearchViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, InstagramDelegate>
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *networkActivityIndicator;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -59,7 +59,6 @@
     self.savedArray = [self.photoController getSavedArray];
     [self checkResultsArray:self.resultArray withFavorites:self.savedArray];
     [self.collectionView reloadData];
-    NSLog(@"%@", self.savedArray);
 }
 
 

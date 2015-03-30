@@ -24,42 +24,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.mapView.delegate = self;
-    [self insertAllFavoritePhotosLocation];
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-//    [self loadImagesInMap];
-    [self.mapView showAnnotations:self.mapView.annotations animated:true];
-}
-
-
-//- (void)loadImagesInMap {
-//    self.photoController = [GMPhotoController new];
-//    self.favoritesArray = [self.photoController getSavedArray];
-//
-//    for (PhotoModel *photo  in self.favoritesArray) {
-//        if (photo.coordinate.latitude != 0 && photo.coordinate.longitude != 0) {
-//            ImageAnnotation *annotation = [ImageAnnotation new];
-//            annotation.coordinate = photo.coordinate;
-//            annotation.title = [NSString stringWithFormat:@"User: %@", photo.user];
-//            annotation.image = photo.image;
-//
-//            [self.mapView addAnnotation:annotation];
-//        }
-//    }
-//
-//}
-
-- (void) insertAllFavoritePhotosLocation
-{
+    self.photoController = [GMPhotoController new];
+    self.favoritesArray = [self.photoController getSavedArray];
     for (PhotoModel *photo in self.favoritesArray)
     {
         [self addPinOnMapWithPhoto:photo];
     }
-
-
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.mapView showAnnotations:self.mapView.annotations animated:true];
+}
+
 
 - (void) addPinOnMapWithPhoto:(PhotoModel *)photo
 {
@@ -76,7 +53,7 @@
     ImageAnnotation *newAnnotation = annotation;
     MKPinAnnotationView *pin = [[MKPinAnnotationView alloc] initWithAnnotation:newAnnotation reuseIdentifier:nil];
     pin.canShowCallout = YES;
-    pin.pinColor = MKPinAnnotationColorPurple;
+//    pin.pinColor = MKPinAnnotationColorRed;
     pin.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
 
     return pin;

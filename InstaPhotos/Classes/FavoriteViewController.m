@@ -42,6 +42,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    self.favoritesArray = [self.photoController getSavedArray];
     if (!self.favoritesArray) {
         self.favoritesArray = [NSMutableArray new];
     }

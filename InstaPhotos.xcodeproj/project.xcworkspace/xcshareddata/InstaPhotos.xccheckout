@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CA0EFA53-367E-49B8-BA55-3B87E0CEE0B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstaPhotos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E58589AFFE1864B53FC1D68CEE8F45506D3E28D7</key>
+		<string>github.com:gabemdev/InstaPhotos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InstaPhotos.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E58589AFFE1864B53FC1D68CEE8F45506D3E28D7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:gabemdev/InstaPhotos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E58589AFFE1864B53FC1D68CEE8F45506D3E28D7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E58589AFFE1864B53FC1D68CEE8F45506D3E28D7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InstaPhotos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
