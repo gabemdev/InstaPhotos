@@ -14,7 +14,6 @@
 		6D699A3D1AC4CF7800B3C407 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A3C1AC4CF7800B3C407 /* FavoriteViewController.m */; };
 		6D699A401AC4CF8200B3C407 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A3F1AC4CF8200B3C407 /* SearchViewController.m */; };
 		6D699A431AC4CF8D00B3C407 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A421AC4CF8D00B3C407 /* MapViewController.m */; };
-		6D699A461AC4CFBD00B3C407 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A451AC4CFBD00B3C407 /* SearchTableViewCell.m */; };
 		6D699A491AC4D1D200B3C407 /* Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A481AC4D1D200B3C407 /* Instagram.m */; };
 		6D699A4D1AC4DBD900B3C407 /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A4C1AC4DBD900B3C407 /* PhotoModel.m */; };
 		6D699A501AC4FCA800B3C407 /* InstagramCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D699A4F1AC4FCA800B3C407 /* InstagramCollectionViewCell.m */; };
@@ -51,8 +50,6 @@
 		6D699A3F1AC4CF8200B3C407 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		6D699A411AC4CF8D00B3C407 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6D699A421AC4CF8D00B3C407 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		6D699A441AC4CFBD00B3C407 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
-		6D699A451AC4CFBD00B3C407 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
 		6D699A471AC4D1D200B3C407 /* Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Instagram.h; path = Model/Instagram.h; sourceTree = "<group>"; };
 		6D699A481AC4D1D200B3C407 /* Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Instagram.m; path = Model/Instagram.m; sourceTree = "<group>"; };
 		6D699A4B1AC4DBD900B3C407 /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoModel.h; path = Model/PhotoModel.h; sourceTree = "<group>"; };
@@ -122,8 +119,6 @@
 			children = (
 				6D699A3E1AC4CF8200B3C407 /* SearchViewController.h */,
 				6D699A3F1AC4CF8200B3C407 /* SearchViewController.m */,
-				6D699A441AC4CFBD00B3C407 /* SearchTableViewCell.h */,
-				6D699A451AC4CFBD00B3C407 /* SearchTableViewCell.m */,
 				6D3570C91AC7272E007694FA /* SearchDetailViewController.h */,
 				6D3570CA1AC7272E007694FA /* SearchDetailViewController.m */,
 			);
@@ -321,7 +316,6 @@
 				6D699A491AC4D1D200B3C407 /* Instagram.m in Sources */,
 				6DD09C4A1AC4A44F00240961 /* main.m in Sources */,
 				6D3570CE1AC727F9007694FA /* GMPhotoController.m in Sources */,
-				6D699A461AC4CFBD00B3C407 /* SearchTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
